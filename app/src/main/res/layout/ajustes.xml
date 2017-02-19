@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ajustesq">
+
+    <Button
+        android:layout_width="51dp"
+        android:layout_height="38dp"
+        android:id="@+id/Regresar"
+        android:layout_row="0"
+        android:layout_column="36"
+        android:background="@drawable/regresar"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="520dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="290dp" />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/act"
+        android:layout_marginLeft="85dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="129dp"
+        android:background="@drawable/sin"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/dsact"
+        android:background="@drawable/con"
+        android:layout_below="@+id/textView5"
+        android:layout_toRightOf="@+id/seekBar"
+        android:layout_toEndOf="@+id/seekBar" />
+
+    <SeekBar
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:indeterminate="false"
+        android:layout_alignTop="@+id/act"
+        android:layout_toRightOf="@+id/act"
+        android:layout_toEndOf="@+id/act"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VOLUMEN"
+        android:id="@+id/textView5"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_above="@+id/seekBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:id="@+id/crdts"
+        android:layout_alignTop="@+id/Regresar"
+        android:layout_alignLeft="@+id/act"
+        android:layout_alignStart="@+id/act"
+        android:background="@drawable/creditosv"
+        android:layout_toStartOf="@+id/textView6"
+        android:layout_alignBottom="@+id/Regresar"
+        android:layout_toLeftOf="@+id/textView6" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/textView6"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_toLeftOf="@+id/textView5" />
+
+</RelativeLayout>

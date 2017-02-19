@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bomba1">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Regresar1"
+        android:layout_row="0"
+        android:layout_column="37"
+        android:text="Regresar"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="480dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp" />
+
+    <Button
+        android:layout_width="174dp"
+        android:layout_height="10dp"
+        android:id="@+id/cablero"
+        android:layout_row="45"
+        android:layout_column="35"
+        android:background="@drawable/amarillo"
+        android:layout_marginTop="74dp"
+        android:layout_below="@+id/Regresar1"
+        android:layout_alignLeft="@+id/cableam"
+        android:layout_alignStart="@+id/cableam" />
+
+    <Button
+        android:layout_width="174dp"
+        android:layout_height="10dp"
+        android:id="@+id/cableam"
+        android:layout_row="46"
+        android:layout_column="35"
+        android:background="@drawable/rojo"
+        android:layout_marginTop="82dp"
+        android:layout_below="@+id/cablero"
+        android:layout_alignLeft="@+id/cableaz"
+        android:layout_alignStart="@+id/cableaz" />
+
+    <Button
+        android:layout_width="174dp"
+        android:layout_height="10dp"
+        android:id="@+id/cableaz"
+        android:layout_row="47"
+        android:layout_column="35"
+        android:layout_marginLeft="35dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/azul"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="300dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/muestratext"
+        android:layout_marginLeft="99dp"
+        android:layout_marginStart="99dp"
+        android:layout_alignBottom="@+id/cablero"
+        android:layout_toRightOf="@+id/cablero"
+        android:layout_toEndOf="@+id/cablero"
+        android:layout_marginBottom="19dp" />
+
+</RelativeLayout>
